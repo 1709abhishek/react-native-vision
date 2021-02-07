@@ -23,6 +23,12 @@ const HomeScreen = ({ navigation }) => {
         }}
         title='Go to Color screen'
       ></Button>
+      <Button
+        onPress={() => {
+          navigation.navigate('Layout');
+        }}
+        title='Go to Box layout screen'
+      ></Button>
     </View>
   );
 };
